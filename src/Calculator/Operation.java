@@ -9,7 +9,8 @@ public class Operation {
     private BigDecimal result;
     private String typeOperation;
 
-    public void setTypeOperation(String typeOperation) {
+    public void setTypeOperation(String typeOperation){
+
         switch (typeOperation) {
             case "1":
                 this.typeOperation = String.valueOf(TypeOperation.SUM);

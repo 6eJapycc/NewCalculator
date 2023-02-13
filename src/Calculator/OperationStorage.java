@@ -1,9 +1,10 @@
 package Calculator;
 
+import java.util.List;
+
 public interface OperationStorage {
     void save (Operation operation);
 
-    Operation[] findAll();
+    List<Operation> findAll();
 
-    int getOperationsCount();
 }

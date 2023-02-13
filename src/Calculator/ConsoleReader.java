@@ -10,7 +10,8 @@ public class ConsoleReader implements Reader {
         return scanner.nextBigDecimal();
     }
 
-    public String readTypeOperation()  {
+
+    public String readTypeOperation() {
         return scanner.next().toUpperCase();
     }
 
